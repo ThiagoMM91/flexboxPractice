@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    display: flex;
+    min-height: 10vh;
+    padding: 1rem;
+    background: rgb(37, 37, 37);
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav h1 {
+    color: lightgray;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero {
+    min-height: 90vh;
+    background-image: url('/src/img/person-holding-barbell-841130.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background: teal;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro-img {
+    background-color: teal;
+    flex: 1 1 45rem;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    background: rgb(230, 230, 230);
+    flex: 1 1 45rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text h2 {
+    padding: 2rem;
+}
+
+.intro-text p {
+    padding: 1rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bigText {
+    font-size: 1.2rem;
+}
